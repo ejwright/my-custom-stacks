@@ -97,8 +97,6 @@ RUN sudo apt-get install -y nodejs
 WORKDIR /projects
 
 
-RUN sudo neo4j start
-
 
 CMD sudo /usr/sbin/sshd -D && \
     tail -f /dev/null
